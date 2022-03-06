@@ -17,7 +17,7 @@ A LibTorch inference implementation of the [yolov5](https://github.com/ultralyti
 
 ```bash
 $ cd /path/to/libtorch_yolo5
-$ wget https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.10.2%2Bcpu.zip
+$ wget https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.10.2%2Bcpu.zip
 $ unzip libtorch-cxx11-abi-shared-with-deps-1.10.2+cpu.zip
 $ mkdir build && cd build
 $ cmake .. && make
