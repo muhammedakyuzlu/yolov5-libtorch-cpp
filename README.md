@@ -18,7 +18,7 @@ A LibTorch inference implementation of the [yolov5](https://github.com/ultralyti
 ```bash
 $ cd /path/to/libtorch_yolo5
 $ wget https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.10.2%2Bcpu.zip
-$ unzip libtorch-cxx11-abi-shared-with-deps-1.10.2+cpu.zip
+$ unzip libtorch-shared-with-deps-1.10.2+cpu.zip
 $ mkdir build && cd build
 $ cmake .. && make
 ```
@@ -56,5 +56,5 @@ $ cmake .. && make
 
 ### image
 ```
-./libtorch-yolov5 --weights ../weights/yolov5s.torchscript --classes ../weights/coco.names --source ../images/bus.jpg [--show] [--conf-thresh] [--iou-thresh]
+./libtorch-yolov5 --weights ../weights/yolov5s.torchscript --classes ../weights/coco.names --source ../images/bus.jpg -i [--show] [--conf-thresh] [--iou-thresh]
 ```
