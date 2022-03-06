@@ -144,7 +144,7 @@ int main(int argc, const char *argv[])
         if (opt["show"].as<bool>()){
             // Display the resulting frame
             cv::imshow("result", result);
-            int k = cv::waitKey(0); // Wait for a keystroke in the window
+            cv::waitKey(0); // Wait for a keystroke in the window
         }
     }
     else
