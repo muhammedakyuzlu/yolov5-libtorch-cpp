@@ -6,9 +6,9 @@ A LibTorch inference implementation of the [yolov5](https://github.com/ultralyti
 
 ## Dependencies
 
-- Ubuntu
-- OpenCV 
-- LibTorch
+- Ubuntu 20
+- OpenCV 4.5
+- LibTorch 1.10.2+cpu
 
 
 
